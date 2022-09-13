@@ -1,0 +1,141 @@
+body,html {
+    background: url('main.png') no-repeat center center fixed; 
+    background-size: cover; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    height: 100%;
+    margin: 0;
+}
+
+.capsid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 50px;
+    text-align: center;
+    overflow: hidden;
+    font-family: Arial;
+}
+
+.topic {
+    background: url('box.gif');
+    background-size: cover; 
+    display: flex;
+    padding: 40px;
+}
+
+.img1 {
+    width: 30%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.topic ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.topic ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.topic ul li a:hover {
+    transition: 0.5s;
+	   background-color: white;
+	   color: grey;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main {
+    background-color: black;
+    text-align: center;
+    color: #C8C8C8;
+    padding: 30px;
+    height: 100%;
+    font-size: 40px;
+    margin-top: auto;
+}
+
+.main p {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.main a {
+    text-decoration: none;
+    color: red;
+}
+
+.bottom {
+    background-color: #EEEEEE;
+    box-shadow: inset 0px 7px 15px #888888;
+    font-size: 25px;
+    font-weight: 300;
+    color: #909090;
+    height: 100%;
+    margin-top: auto;
+    padding: 50px;
+}
+
+@media (max-width: 1244px)  { 
+
+}
+
+@media (min-width: 1333px)  {
+    .topic {
+        text-align: center;
+        background: url('box.png');
+    }
+
+    .img1 {
+        width: 20%;
+        height: 20%;
+        margin: 2%;
+    }
+
+    .topic ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 30px;
+        font-size: 40px;
+
+    }
+
+    .topic ul li a {
+        text-decoration: none;
+        color: white;
+        transition: 0.5s;
+    }
+
+    .topic ul li a:hover {
+        transition: 0.5s;
+        background-color: white;
+        color: grey;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .main {
+        padding: 80px;
+        font-size: 30px;
+    }
+
+    .main p {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .main a {
+        text-decoration: none;
+        color: red;
+    }
+}
